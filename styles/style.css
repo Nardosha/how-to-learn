@@ -57,6 +57,11 @@
   padding: 0;
 }
 
+.link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .header__main-illustration {
   position: absolute;
   bottom: 0;
@@ -78,18 +83,20 @@
 
 /*--------------------MAIN---------------------*/
 .main {
-/ /
 }
 
 /* description */
 
 .description {
+}
+
+.description__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 
 .two-columns {
@@ -136,8 +143,12 @@
 /* digits */
 
 .digits {
-  padding: 100px 0;
+}
+
+.digits__wrapper {
   margin: 0 auto;
+  padding: 100px 0;
+
 }
 
 .title {
@@ -210,11 +221,13 @@
 /* feynman */
 
 .feynman {
+}
+
+.feynman__wrapper {
   position: relative;
   min-height: 890px;
   background: #f2f2f2 url('../images/main/feynman/feynman.png') bottom left no-repeat;
   background-size: 867px 637px;
-  padding: 100px 0 0 0;
 }
 
 .feynman__title {
@@ -243,6 +256,10 @@
 /* kaufman */
 
 .kaufman {
+
+}
+
+.kaufman__wrapper {
   position: relative;
   background-color: #1f1f1f;
   padding: 90px 0;
@@ -260,7 +277,8 @@
 
 }
 
-.table_theme_dark {}
+.table_theme_dark {
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -270,9 +288,11 @@
   margin-top: 80px;
 }
 
-.table__heading_theme_dark {}
+.table__heading_theme_dark {
+}
 
-.table__text_theme_dark {}
+.table__text_theme_dark {
+}
 
 .kaufman__triangle {
   background: url('../images/main/kaufman/kaufman-triangle.svg') no-repeat;
@@ -288,9 +308,14 @@
 /*-------------------FOOTER--------------------*/
 
 .footer {
+
+}
+
+.footer__wrapper {
   background-color: #1f1f1f;
   display: flex;
   min-height: 350px;
+  padding: 60px 0 40px 0;
 }
 
 .footer__columns {
@@ -298,7 +323,6 @@
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  padding: 60px 0 40px 0;
 }
 
 .footer__column_content_copyright {
@@ -309,8 +333,6 @@
 }
 
 .logo_place_footer {
-  /*flex: 1 0 auto;*/
-
 }
 
 .footer__author {
@@ -319,9 +341,11 @@
   line-height: 25px;
 }
 
-.footer__column_content_info {}
+.footer__column_content_info {
+}
 
-.footer__column_content_social {}
+.footer__column_content_social {
+}
 
 .footer__column-heading {
   color: white;
@@ -341,7 +365,6 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  text-decoration: none;
 }
 
 .footer__social-icon {
