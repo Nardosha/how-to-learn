@@ -9,19 +9,114 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*-------------------HEADER--------------------*/
+/*--------------------MAIN---------------------*/
+/*-------------------FOOTER--------------------*/
+
 .header {
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  display: flex;
+  align-items: center;
+  padding: 30px 0 0 64px;
+  margin: 0;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 30px 0 0 64px;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  font-size: 102px;
+  font-weight: 600;
+  max-width: 730px;
+
+}
+
+.header__subtitle {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  max-width: 388px;
+  margin: 0 0 30px 64px;
+  padding: 0;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 568px;
+  max-height: 568px;
+  z-index: 1;
+}
+
 .header__square-pic {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: -1;
   height: 568px;
   width: 568px;
+  background: #2f80ed;
 }
 
+/*--------------------MAIN---------------------*/
+.main {
+  //
+}
+
+.main__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+
+}
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.two-columns__paragraph {}
+
+.two-columns__paragraph:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent {}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
