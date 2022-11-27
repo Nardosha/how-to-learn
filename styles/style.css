@@ -216,4 +216,34 @@
 
 
 /* feynman */
+.feynman {
+  position: relative;
+  text-align: center;
+  min-height: 890px;
+  background: url('../images/main/feynman/feynman.png') bottom left no-repeat;
+  background-size: 867px 637px;
+  padding: 100px 0 0 0;
+}
 
+.feynman__title {
+  font-size: 120px;
+  width: 648px;
+  margin-bottom: 70px;
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  line-height: 51px;
+}
+
+.feynman__link {
+  text-align: right;
+  font-size: 36px;
+  line-height: 51px;
+  color: #2f80ed;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 0 48px 0 0;
+}
