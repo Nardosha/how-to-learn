@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -82,13 +78,6 @@
 }
 
 /*--------------------MAIN---------------------*/
-.main {
-}
-
-/* description */
-
-.description {
-}
 
 .description__wrapper {
   display: flex;
@@ -111,7 +100,7 @@
   line-height: 1.5;
   font-weight: normal;
   padding: 0;
-  margin: 0;
+  margin: 0 20px 0 0;
   width: 175px;
   color: #2f80ed;
 
@@ -141,9 +130,6 @@
 }
 
 /* digits */
-
-.digits {
-}
 
 .digits__wrapper {
   margin: 0 auto;
@@ -175,11 +161,6 @@
   margin: 0 auto 20px;
 }
 
-/*
-.digits__subtitle {
-}
-*/
-
 .table {
   display: flex;
   flex-wrap: wrap;
@@ -188,6 +169,7 @@
   justify-content: space-between;
   max-width: 1100px;
   margin: 0 auto;
+  padding: 0 40px
 }
 
 .table__cell {
@@ -219,9 +201,6 @@
 }
 
 /* feynman */
-
-.feynman {
-}
 
 .feynman__wrapper {
   position: relative;
@@ -255,10 +234,6 @@
 
 /* kaufman */
 
-.kaufman {
-
-}
-
 .kaufman__wrapper {
   position: relative;
   background-color: #1f1f1f;
@@ -274,24 +249,13 @@
 
 .kaufman__subtitle {
   color: white;
-
 }
 
-.table_theme_dark {
-}
-
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
-
-.table__heading_theme_dark {
-}
-
-.table__text_theme_dark {
 }
 
 .kaufman__triangle {
@@ -306,10 +270,6 @@
 }
 
 /*-------------------FOOTER--------------------*/
-
-.footer {
-
-}
 
 .footer__wrapper {
   background-color: #1f1f1f;
@@ -332,9 +292,6 @@
   justify-content: space-between;
 }
 
-.logo_place_footer {
-}
-
 .footer__author {
   color: white;
   font-size: 18px;
@@ -342,9 +299,7 @@
 }
 
 .footer__column_content_info {
-}
-
-.footer__column_content_social {
+  margin: 0 35px 0 0;
 }
 
 .footer__column-heading {
