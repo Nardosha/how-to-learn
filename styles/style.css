@@ -201,6 +201,7 @@
 /* feynman */
 
 .feynman {
+  box-sizing: border-box;
   position: relative;
   min-height: 890px;
   background: #f2f2f2 url('../images/main/feynman/feynman.png') bottom left no-repeat;
@@ -313,6 +314,10 @@
   flex-direction: column;
 }
 
+.footer__column-links:last-child {
+  margin: 0 0 16px 0;
+}
+
 .footer__column-link {
   color: white;
   font-size: 18px;
@@ -324,13 +329,5 @@
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
-}
-
-.footer__social-text {
-  color: #f2f2f2;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: normal;
-  margin: 0 0 16px 0;
 }
 
