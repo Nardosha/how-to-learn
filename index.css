@@ -1,0 +1,48 @@
+/*------- VENDORS -------*/
+@import url('vendors/normalize.css');
+
+/*------- ROOT -------*/
+@import url("blocks/root/root.css");
+
+/*--- logo ---*/
+@import url('blocks/logo/logo.css');
+@import url('blocks/logo/_place/logo_place_header.css');
+
+/*--- link ---*/
+@import url("blocks/link/link.css");
+
+/*---------- HEADER ------*/
+
+/*---------- MAIN ----------*/
+@import url("blocks/main/main.css");
+
+/*--- description ---*/
+@import url("blocks/description/description.css");
+
+/*--- two-columns ---*/
+@import url("blocks/two-columns/two-columns.css");
+
+/*--- digits ---*/
+@import url("blocks/digits/digits.css");
+
+/*--- section-title ---*/
+@import url("blocks/section-title/section-title.css");
+@import url("blocks/section-title/_theme/section-title_theme_dark.css");
+
+/*--- section-subtitle ---*/
+@import url("blocks/section-subtitle/section-subtitle.css");
+@import url("blocks/section-subtitle/_theme/section-subtitle_theme_dark.css");
+
+/*--- table ---*/
+@import url("blocks/table/table.css");
+@import url("blocks/table/__cell/table__cell.css");
+@import url("blocks/table/__cell/_theme/table__cell_theme_dark.css");
+
+/*--- feynman ---*/
+@import url("blocks/feynman/feynman.css");
+
+/*--- kaufman ---*/
+@import url("blocks/kaufman/kaufman.css");
+
+/*--------- FOOTER ---------*/
+@import url("blocks/footer/footer.css");
