@@ -20,6 +20,23 @@
 /*--- description ---*/
 @import url("blocks/description/description.css");
 
+/*--- techniques ---*/
+@import url("blocks/techniques/techniques.css");
+@import url("blocks/techniques/__cards/techniques__cards.css");
+
+/*--- cards ---*/
+@import url("blocks/cards/cards.css");
+@import url("blocks/cards/__item/cards__item.css");
+@import url("blocks/cards/__image/cards__image.css");
+@import url("blocks/cards/__title/cards__title.css");
+@import url("blocks/cards/__description/cards__description.css");
+
+/*--- video ---*/
+@import url("blocks/video/video.css");
+
+/*--- oakley ---*/
+@import url("blocks/oakley/oakley.css");
+
 /*--- two-columns ---*/
 @import url("blocks/two-columns/two-columns.css");
 
@@ -42,8 +59,14 @@
 /*--- feynman ---*/
 @import url("blocks/feynman/feynman.css");
 
+/*--- khan ---*/
+@import url("blocks/khan/khan.css");
+
 /*--- kaufman ---*/
 @import url("blocks/kaufman/kaufman.css");
+
+/*--- resources ---*/
+@import url("blocks/resources/resources.css");
 
 /*--------- FOOTER ---------*/
 @import url("blocks/footer/footer.css");
