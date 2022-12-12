@@ -1,4 +1,7 @@
 .video__iframes {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
   display: flex;
   gap: 20px;
   align-items: center;
