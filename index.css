@@ -14,6 +14,9 @@
 /*---------- HEADER ------*/
 @import url("blocks/header/header.css");
 
+/*--- rotation ---*/
+@import url("blocks/rotation/roration.css");
+
 /*---------- MAIN ----------*/
 @import url("blocks/main/main.css");
 
