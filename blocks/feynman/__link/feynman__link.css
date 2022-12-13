@@ -3,9 +3,9 @@
   font-size: 36px;
   line-height: 51px;
   color: #2f80ed;
+  text-decoration: none;
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 48px;
   transform: translateY(-50%);
-  padding: 0 48px 0 0;
 }
