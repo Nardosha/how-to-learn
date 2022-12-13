@@ -1,0 +1,8 @@
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-links:last-child {
+  margin: 0 0 16px 0;
+}
