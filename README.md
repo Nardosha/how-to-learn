@@ -1,9 +1,7 @@
 How to learn
 ========================
-### Study project from Yandex Practicum course ["Web developer"](https://practicum.yandex.ru/web/)
+#### This is a study page from Yandex Practicum course ["Web developer"](https://practicum.yandex.ru/web/)
 ____
 
-
-* заголовок-название;
-* описание проекта и его функциональности;
-* указание, что за технологии используются, если их много.
+The project was created in html and css using *BEM* methodology.
+Its structure is based on *NESTED* hierarchy.
